@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AlecSands/profile_page#readme",
   "dependencies": {
+    "angular": "^1.6.6",
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "path": "^0.12.7"

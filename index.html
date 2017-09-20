@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="/views/style.css">
+
+    <!-- Angular Material style sheet -->
+    <link href="vendors/angular-material/angular-material.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-material/angular-material.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-material/angular-aria.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-material/angular-animate.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-material/angular-messages.min.js"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <title>Alec Sands Profile</title>
+  </head>
+  <body ng-app="profile">
+    <!-- <h1 class="md-display-4 md-primary">Hello</h1>
+    <h1 class="md-display-4 md-accent">Hello</h1>
+    <h1 class="md-display-4 md-warn">Hello</h1>
+    <md-button class="md-raised md-primary">Button</md-button>
+    <md-button class="md-raised md-accent">Primary</md-button>
+    <md-button class="md-raised md-warn">Warn</md-button> -->
+
+    <div layout="column" layout-align="center center" ng-controller="colorController as cc">
+      <img id="profileImg" src="img/alec.jpg">
+      <!-- <div id="line">
+
+      </div> -->
+      <h1 id="name" class="md-display-3">Alec Sands <span>Developer</span></h1>
+      <!-- <h3 id="subhead" class="md-title">Full Stack Web Developer</h3> -->
+      <p id="paragraph" class="md-body-1">Architect turned software developer, I enjoy the pragmatic and creative problem solving process of developing web applications. I bring extensive history in collaborative project work and a passion for learning to every team I join.</p>
+      <p id="links"><a href="https://github.com/AlecSands">GitHub</a> | <a href="https://www.linkedin.com/in/alec-sands-351ba867/">LinkedIn</a> | <a href="mailto:sandsalecv@gmail.com">Email</a></p>
+      <!-- <div id="links" layout="row">
+        <a href="https://github.com/AlecSands">GitHub</a>
+        <p>   </p>
+        <a href="https://www.linkedin.com/in/alec-sands-351ba867/">LinkedIn</a>
+        <p>   </p>
+        <a href="mailto:sandsalecv@gmail.com">Email</a>
+      </div> -->
+      <!-- <div md-theme="default" ng-show="cc.otherTheme == true">
+        <md-button class="md-raised md-primary">Button</md-button>
+        <md-button class="md-raised md-accent">Primary</md-button>
+        <md-button class="md-raised md-warn">Warn</md-button>
+      </div>
+      <div md-theme="altTheme" ng-show="cc.otherTheme == false">
+        <md-button class="md-raised md-primary">Button</md-button>
+        <md-button class="md-raised md-accent">Primary</md-button>
+        <md-button class="md-raised md-warn">Warn</md-button>
+      </div>
+      <div md-theme="altTheme2" ng-show="cc.otherTheme == 'other'">
+        <md-button class="md-raised md-primary">Button</md-button>
+        <md-button class="md-raised md-accent">Primary</md-button>
+        <md-button class="md-raised md-warn">Warn</md-button>
+      </div> -->
+    </div>
+  </body>
+</html>
