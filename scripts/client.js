@@ -40,7 +40,7 @@ myApp.controller('colorController', function(){
     }
   };
 
-  setInterval(setTheme, 1000);
+  // setInterval(setTheme, 1000);
 });
 
 // red
