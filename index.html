@@ -16,11 +16,41 @@
     <title>Alec Sands Profile</title>
   </head>
   <body ng-app="profile">
-    <div layout="column" layout-align="center center" ng-controller="colorController as cc">
+    <div id="overview" layout="column" layout-align="center center" ng-controller="colorController as cc">
       <img id="profileImg" src="img/alec.jpg">
-      <h1 id="name" class="md-display-3">Alec Sands <span>Developer</span></h1>
+      <h1 id="name" class="md-display-3">Alec Sands <span id="title">Developer</span></h1>
       <p id="paragraph" class="md-body-1">Architect turned software developer, I enjoy the pragmatic and creative problem solving process of developing web applications. I bring extensive history in collaborative project work and a passion for learning to every team I join.</p>
-      <p id="links"><a href="https://github.com/AlecSands">GitHub</a> | <a href="https://www.linkedin.com/in/alec-sands-351ba867/">LinkedIn</a> | <a href="mailto:sandsalecv@gmail.com">Email</a></p>
+      <p id="overviewLinks"><a href="https://github.com/AlecSands">GitHub</a> ○ <a href="https://www.linkedin.com/in/alec-sands-351ba867/">LinkedIn</a> ○ <a href="mailto:sandsalecv@gmail.com">Email</a></p>
+    </div>
+    <div id="fixit">
+      <h1 class="md-display-3">Idea Shuffle <span>Solo Project</span></h1>
+      <div class="screenshotContianer" layout="row" layout-align="center center" >
+        <img flex="30" class="screenshot" src="screenshots/topicselect.jpeg">
+        <img flex="30" class="screenshot" src="screenshots/ideashuffle.gif">
+        <img flex="30" class="screenshot" src="screenshots/textweb.jpeg">
+      </div>
+      <p class="md-body-1 description">
+        Idea Shuffle is a full-stack web application developed to upgrade the
+        efficiency and convenience of brainstorming sessions.
+      </p>
+      <a class="websiteLink" href="https://tranquil-waters-36326.herokuapp.com/">Idea Shuffle Website</a>
+      <div class="divider">
+
+      </div>
+      <h1 class="md-display-3">Fix-It Tech App <span>Group Project</span></h1>
+      <div class="screenshotContianer" layout="row" layout-align="center center" >
+        <img flex="30" class="screenshot" src="screenshots/home.jpeg">
+        <img flex="30" class="screenshot" src="screenshots/out.gif">
+        <img flex="30" class="screenshot" src="screenshots/volunteers.jpeg">
+      </div>
+      <p class="md-body-1 description">
+        Fix-It Tech App is a full-stack web application developed to manage events
+        and volunteer information for the Fix-It organization.
+      </p>
+      <a class="websiteLink" href="https://ancient-island-43826.herokuapp.com/">Fix-It Website</a>
+    </div>
+    <div id="linksContainer" layout="column" layout-align="center center" >
+      <p id="links"><a href="https://github.com/AlecSands">GitHub</a> ● <a href="https://www.linkedin.com/in/alec-sands-351ba867/">LinkedIn</a> ● <a href="mailto:sandsalecv@gmail.com">Email</a></p>
     </div>
   </body>
 </html>
